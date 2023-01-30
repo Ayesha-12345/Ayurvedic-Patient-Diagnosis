@@ -21,9 +21,9 @@ The best performing model was [CART] with an accuracy of [97.1429]. The results 
 # Usage
 To use the model, follow these steps:
 
-Clone or download the repository to your local machine.
-Install the required libraries listed in the [insert file name here] file.
-Run the [insert file name here] file to generate predictions for new patients.
+1)Clone or download the repository to your local machine.
+2)Install the required libraries listed in the [insert file name here] file.
+3)Run the [insert file name here] file to generate predictions for new patients.
 
 
 # Conclusion
