@@ -6,6 +6,13 @@ This machine learning project aids Ayurvedic practitioners in classifying patien
 
 Developed for Dr. Kale, an Ayurvedic practitioner, this project classifies patients as healthy or non-healthy based on medical information and image data. Machine learning models leverage patient demographics and RGB values from phone camera images.
 
+## Sample Data
+
+<p float="left">
+  <img src="https://drive.google.com/uc?export=view&id=1Bi_8hFta8vxA33LoqgCrhjpbxh_6J-2_" width="300" />
+  <img src="https://drive.google.com/uc?export=view&id=1u4BVckCR7-BST2QpxnBfPrRh4OpmQ4lC" width="300" />
+</p>
+
 ## Data
 
 The provided data from Dr. Kale includes patient demographics (Age, Sex, Rutu, Hb%, RBC, Prakruti, Questionnaire count(Vata, Pitta, Kapha)) and RGB values of images (14 pixels resolution). The preprocessed data is split into training and testing sets.
@@ -18,21 +25,11 @@ A supervised machine learning approach classifies patients using four models (KN
 
 Results show that considering both RGB values and questionnaire responses significantly improves accuracy (86-97%). The best-performing model, [CART], achieved an accuracy of [97.1429].
 
-## Results
-
-Model evaluation results are available in the [insert file name here] file.
-
-## Sample Data
-
-<p float="left">
-  <img src="https://drive.google.com/uc?export=view&id=1Bi_8hFta8vxA33LoqgCrhjpbxh_6J-2_" width="300" />
-  <img src="https://drive.google.com/uc?export=view&id=1u4BVckCR7-BST2QpxnBfPrRh4OpmQ4lC" width="300" />
-</p>
-
 ## Poster Presentation
 
 The project won the Aavishkar research poster presentation competition at the college, zonal, and university levels. 
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1LXUfnfgciZ1z9ofTT4DvVG54ma8-YZtc" alt="Poster Presentation" />
+  <img src="PosterPresentations.com-100CMx100CM-Template-Chamberlain_page-0001.jpg" alt="Poster Presentation" />
 </p>
+
 
