@@ -1,30 +1,38 @@
 # Healthy and Unhealthy Patient Classification
-This is a machine learning project developed to assist an Ayurvedic practitioner in classifying patients as healthy or non-healthy. The project uses patient demographics, image data, and a questionnaire to make predictions using various machine learning models. The repository contains the code and results of the project.
 
+This machine learning project aids Ayurvedic practitioners in classifying patients as healthy or non-healthy. Utilizing patient demographics, image data, and a questionnaire, various machine learning models make predictions. The repository contains the project's code, results, sample data, and the award-winning Aavishkar research poster.
 
-# Introduction
-This project was developed for Dr. Kale, an Ayurvedic practitioner, to assist in classifying patients as healthy or non-healthy based on their medical information and image data. The project uses machine learning models to make predictions based on the patient's demographics and the RGB values of images taken using a phone camera.
+## Introduction
 
-# Data
-The data used in this project was provided by Dr. Kale and includes information about patient demographics (Age, Sex, Rutu, Hb%, RBC, Prakruti, Quetionnaire count(Vata, Pitta, Kapha)) and the RGB values of images taken with a phone camera resolution of 14 pixels. The data has been preprocessed and split into a training set and a testing set.
+Developed for Dr. Kale, an Ayurvedic practitioner, this project classifies patients as healthy or non-healthy based on medical information and image data. Machine learning models leverage patient demographics and RGB values from phone camera images.
 
-# Methodology
-The project uses a supervised machine learning approach to classify patients as healthy or non-healthy. 
-Four different models (KNN, CART, NB, SVM) were trained using the training data, and their performance was evaluated using the testing data.
+## Data
 
-# Model
-The results showed that when only the RGB values were taken into consideration, the accuracy of the models was between 55-60%. However, when the patient's responses to a questionnaire were also taken into consideration, the accuracy of the models increased to between 86-97%.
+The provided data from Dr. Kale includes patient demographics (Age, Sex, Rutu, Hb%, RBC, Prakruti, Questionnaire count(Vata, Pitta, Kapha)) and RGB values of images (14 pixels resolution). The preprocessed data is split into training and testing sets.
 
-# Results
-The best performing model was [CART] with an accuracy of [97.1429]. The results of the model evaluation can be found in the file.
+## Methodology
 
-# Usage
-To use the model, follow these steps:
+A supervised machine learning approach classifies patients using four models (KNN, CART, NB, SVM). Models are trained on demographic and image data, and performance is evaluated on testing data.
 
-1)Clone or download the repository to your local machine.<br>
-2)Install the required libraries listed in the [insert file name here] file.<br>
-3)Run the [insert file name here] file to generate predictions for new patients.
+## Model
 
+Results show that considering both RGB values and questionnaire responses significantly improves accuracy (86-97%). The best-performing model, [CART], achieved an accuracy of [97.1429].
 
-# Conclusion
-This project shows the importance of considering both patient demographics and image data when classifying patients as healthy or non-healthy. The results demonstrate the potential for using machine learning in Ayurvedic practice to provide more accurate diagnoses and treatment recommendations.
+## Results
+
+Model evaluation results are available in the [insert file name here] file.
+
+## Sample Data
+
+<p float="left">
+  <img src="https://drive.google.com/uc?export=view&id=1Bi_8hFta8vxA33LoqgCrhjpbxh_6J-2_" width="300" />
+  <img src="https://drive.google.com/uc?export=view&id=1u4BVckCR7-BST2QpxnBfPrRh4OpmQ4lC" width="300" />
+</p>
+
+## Poster Presentation
+
+The project won the Aavishkar research poster presentation competition at the college, zonal, and university levels. 
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1LXUfnfgciZ1z9ofTT4DvVG54ma8-YZtc" alt="Poster Presentation" />
+</p>
+
